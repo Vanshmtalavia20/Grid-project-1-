@@ -1,0 +1,1978 @@
+*{box-sizing: border-box; margin: 0; padding: 0;}
+
+                 /* .main starts */
+
+.main
+{
+    height: 150px;
+    background: white;
+    /* border: 2px solid; */
+    display: grid;
+    grid-template-columns: 5fr 5fr;
+}
+
+
+.m1
+{
+    /* border: 2px solid; */
+    text-align: center;
+    margin: 50px;
+    font-size: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.m2
+{
+    /* border: 2px solid; */
+    height: 150px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    position: relative;
+   
+}
+.m2 i
+{
+    position: absolute;
+    top: 50px;
+    left: 30px;
+}
+ 
+.submm1
+{
+    height: 60px;
+    width: 180px;
+    /* border: 2px solid; */
+    background: #ffffff;
+    text-align: center;
+    margin: 45px;
+    
+}
+
+
+
+
+
+
+/* .m2
+{
+    border: 2px solid;
+
+} */
+
+.m3
+{
+    /* border: 2px solid; */
+    position: relative;
+    height: 150px;
+
+}
+
+
+.m3 i
+{
+    position: absolute;
+    top: 45px;
+    left: 25px;
+}
+ 
+.submm3
+{
+    height: 70px;
+    width: 180px;
+    /* border: 2px solid; */
+    background: #ffffff;
+    text-align: center;
+    margin: 40px;
+    
+}
+
+
+
+
+.m4
+{
+    /* border: 2px solid; */
+    position: relative;
+    height: 150px;
+}
+
+.m4 i
+{
+    position: absolute;
+    top:45px;
+    left: 25px;
+}
+ 
+.submm4
+{
+    height: 70px;
+    width: 120px;
+    /* border: 2px solid; */
+    background: #ffffff;
+    text-align: center;
+    margin: 40px;
+    
+}
+
+              /* .main ends */
+
+.main2
+{
+    height: 70px;
+    /* border: 2px solid; */
+    background: rgb(111, 118, 118);
+    text-align: center;
+    display: grid;
+    grid-template-columns:9fr;
+    position: relative;
+    
+
+}
+
+.main2 li .jp
+{
+  position: relative;
+}
+
+
+
+
+
+
+
+.main2 .p
+{
+   color: cadetblue;
+}
+
+
+.main2 ul 
+{
+  /* border: 2px solid; */
+  position: absolute;
+  top: 20px;
+  left: 50px;
+  /* width: 200px; */
+  /* height: 10px; */
+}
+
+
+.main2 li
+{
+   display: inline;
+   margin-right: 35px;
+   font-size: 22px;
+   
+}
+
+.main2 a
+{
+    text-decoration: none;
+    color: #ffff;
+}
+
+
+.main2 ul a:hover
+{
+    color: cadetblue;
+    transition: .3s;
+}
+
+.submain2
+{
+    height: 50px;
+    width: 130px;
+    margin: 10px 1110px;
+    letter-spacing: 7px;
+    font-size: 18px;
+    /* border: 2px solid; */
+    padding: 11px;
+    
+}
+
+
+  
+.aus
+
+{
+    height: 350px;
+    width: 1170px;
+    background: linen;
+    margin: 30px 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* border: 2px solid; */
+    display: none;
+    transition: 5s;
+    position: absolute;
+    top: 20px;
+    left: -5px;
+    z-index: 1;
+    
+
+}
+
+.main2  li.jp:hover .aus
+{
+    display: block;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+
+.about1
+{
+
+    /* border: 2px solid; */
+    padding: 30px;
+   
+   
+}
+
+.about1 h3
+{
+    letter-spacing: 1px;
+    font-size: 20px;
+    margin: 18px;
+    text-align: left;
+    color: gray;
+}
+
+.aus a :hover
+{
+    color:cyan;
+}
+
+.aus .e :hover
+{
+  color: darkgray;
+}
+
+.about1 p
+{
+    letter-spacing: 1px;
+    font-size: 18px;
+    margin: 18px;
+    text-align: left;
+    color: lightslategrey;
+}
+
+
+
+.about2
+{
+    /* border: 2px solid; */
+    padding: 30px;
+}
+
+.about2 h3
+{
+    letter-spacing: 1px;
+    font-size: 20px;
+    margin: 18px;
+    text-align: left;
+    color: gray;
+}
+
+.about2 p
+{
+    letter-spacing: 1px;
+    font-size: 18px;
+    margin: 18px;
+    text-align: left;
+    color: lightslategray;
+}
+
+.about3
+{
+    /* border: 2px solid; */
+    padding: 30px;
+
+}
+
+.about3 h3
+{
+    letter-spacing: 1px;
+    font-size: 20px;
+    margin: 18px;
+    text-align: left;
+    color: gray;
+}
+
+.about3 p
+{
+    letter-spacing: 1px;
+    font-size: 18px;
+    margin: 18px;
+    text-align: left;
+    color: lightslategray;
+}
+
+.about4
+{
+    /* border: 2px solid; */
+    padding: 30px;
+}
+
+.about4 h3
+{
+    letter-spacing: 1px;
+    font-size: 20px;
+    margin: 18px;
+    text-align: left;
+    color: gray;
+}
+
+.about4 p
+{
+    letter-spacing: 1px;
+    font-size: 18px;
+    margin: 18px;
+    text-align: left;
+    color: lightslategray;
+}
+
+.main3
+{
+    background: url(https://consulting.stylemixthemes.com/nine/wp-content/uploads/sites/9/2015/12/slider-1-2_03.jpg?id=1425);
+    height: 500px;
+    /* width: 1200px; */
+    background-repeat: no-repeat;
+    background-size: 120% 100%;
+    background-position: -130px;
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    /* border: 2px solid; */
+
+}  
+
+
+.main3 .submain31
+{
+   /* border: 2px solid; */
+   height: 500px;
+   display: grid;
+   grid-template-rows: 1fr 1fr;
+   position: relative;
+   
+}
+
+.ss
+{
+   /* border: 2px solid; */
+   position: absolute;
+   top: 90px;
+   left: 90px;
+}
+
+.ss h1
+{
+    font-size: 70px;
+    color: #ffff;
+   
+}
+
+.main3 .sr
+{
+    /* border: 2px solid salmon; */
+}
+
+.main3 .se
+{
+    /* border: 2px solid lightblue; */
+    position: relative;
+
+}
+
+.se p
+{
+  font-size: 25px;
+  color: #ffffff;
+  position: absolute;
+  top: 20px;
+  left: 90px;
+}
+
+.se .ends
+{
+    font-size: 25px;
+    color: #ffffff;
+    position: absolute;
+    top: 50px;
+    left: 90px;
+}
+
+.main3  button
+{
+    height: 50px;
+    width: 130px;
+    font-size: 15px;
+    color: black;
+    background: cadetblue;
+    border-radius: 5px;
+    position: absolute;
+    top: 120px;
+    left: 90px;
+    border: none;
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    transition: .2s;
+    
+    
+}
+
+.main3 button:hover
+{
+    background: grey;
+    color: #ffffff;
+    /* transition: .2s; */
+}
+
+.main3 button a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.main3 button a:hover 
+{
+    color: #ffffff;
+}
+
+.main3 button::after
+{
+    content: "\203A";
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.main button::after:hover
+{
+    
+    color: cadetblue;
+}
+
+
+                     /* .main3 starts */
+
+
+
+.main3 .submain32
+{
+    /* border: 2px solid; */
+    height: 500px;
+    position: relative;
+    padding: 70px 50px;
+    
+}
+
+.submain32 .sub32
+{
+    height: 350px;
+    width: 500px;
+    background: whitesmoke;
+    padding: 40px;
+    position: relative;
+    text-align: center;
+}
+
+.sub32 p
+{
+    font-size: 40px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color:grey;
+}
+
+.submain32 .sub32 input
+{
+    height: 40px;
+    width: 400px;
+    background: lightslategrey;
+    border: none;
+    padding: 20px 40px;
+}
+
+.submain32 .sub32 input:hover
+{
+    background: #ffffff;
+    border: 2px solid cadetblue;
+    border-radius: 2px;
+    
+}
+
+.submain32 .sub32 .q
+{
+   height: 50px;
+   width: 170px;
+   position: absolute;
+   top: 270px;
+   left: 150px;
+   background: grey;
+   
+}
+
+.submain32 .sub32 .q:hover
+{
+    background: cadetblue;
+
+}
+
+                                    /* .main3 ends */
+              
+                                    /* .main4 .ends */
+
+
+.main4
+{
+    height: 80px;
+    background: cadetblue;
+    /* border: 2px solid; */
+    display: grid;
+    grid-template-columns: 7fr 3fr;
+}
+
+.main4 .submain41
+{
+    /* border: 2px solid; */
+    font-size: 22px;
+    padding: 20px 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main4 .submain41 p
+{
+    color: lightgray;
+}
+
+.main4 .submain42
+{
+    /* s */
+    text-align:right;
+}
+
+.main4 .submain42 button
+{
+  margin: 10px 100px;
+  height: 50px;
+  width: 150px;
+  border: 2px solid;
+  font-size: 16px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  transition: .3s;
+}
+
+.main4 .submain42 button::after
+{
+    content: "\203A";
+    
+}
+
+.main4 .submain42 button:hover
+{
+    background: transparent;
+    border: 2px solid #ffffff;
+    /* transition: .2s; */
+}
+
+                        /* .main4 .ends */
+
+
+                        /* .main5 starts */
+
+.main5
+
+{
+  height: 150px;
+  background: #ffffff;
+  display: grid;
+  grid-template-columns: 3fr 7fr;
+}
+
+.main5 .submain51
+{
+    /* border: 2px solid; */
+    position: relative;
+}
+
+.main5 .submain51 p
+{
+    font-size: 26px;
+    color: gray;
+    margin: 50px;
+}
+
+.main5 .submain51 .water
+{
+    height: 8px;
+    width: 35px;
+    background: darkgreen;
+    border-radius: 10px;
+    align-items: center;
+    margin-top: -40px;
+    
+}
+
+.main5 .submain52
+{
+    /* border: 2px solid; */
+}
+
+.main5 .submain52 p
+{
+    font-size: 26px;
+    color: gray;
+    margin: 50px 265px;
+}
+
+.main5 .submain52 .elite
+{
+    height: 8px;
+    width: 35px;
+    background: darkgreen;
+    border-radius: 10px;
+    align-items: center;
+    margin-top: -40px;
+}
+
+.main6
+{
+    height: 300px;
+    background: #ffffff;
+    /* border: 2px solid; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.main6 .submain61
+{
+    /* border: 2px solid; */
+    background: url(https://th.bing.com/th/id/R.cc636041530b0c1b1b34734ccaee6ce6?rik=rPGmkNvMelv0iw&riu=http%3a%2f%2fwww.publicdomainpictures.net%2fpictures%2f40000%2fvelka%2fgraph.jpg&ehk=ryE44Xh84Rp6yeIcMKZoDQWWKtDcXKFSJfIgXj7%2bg%2fE%3d&risl=&pid=ImgRaw&r=0);
+    background-size: 100% 110%;
+    background-position: -90% 20%;
+}
+
+.main6 .submain62
+{
+    /* border: 2px solid; */
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.main6 .submain621
+{
+    /* border: 2px solid; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.main6 .submain621 .dog
+{
+    /* border: 2px solid; */
+    /* padding: 30px; */
+    font-size: 20px;
+    
+}
+.main6 .submain621 .dog p ::before
+{
+  content: "\801B";
+  margin: 10px;
+}
+
+.main6 .snake
+{
+    font-size: 15px;
+    margin: 30px 10px;
+}
+
+
+.main6 .submain621 .cat
+{
+    /* border: 2px solid; */
+    font-size: 20px;
+}
+.main6 .submain621 .cat p ::before
+{
+  content: "\801B";
+  margin: 10px;
+}
+
+
+
+
+
+.main6 .submain622
+{
+  /* border: 2px solid; */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.main6 .submain622 .horse
+{
+    /* border: 2px solid; */
+    font-size: 20px;
+}
+.main6 .submain622 .horse p ::before
+{
+  content: "\801B";
+  margin: 10px;
+}
+
+.main6 .submain622 .cool
+{
+    /* border: 2px solid; */
+    font-size: 20px;
+}
+.main6 .submain622 .cool p ::before
+{
+  content: "\801B";
+  margin: 10px;
+}
+
+
+        /* .main6 .ends */
+
+
+        /* .main7 starts */
+
+
+
+.main7
+{
+    height: 500px;
+    background: url(https://consulting.stylemixthemes.com/nine/wp-content/uploads/sites/9/2015/12/layer-traders-choose_02.jpg?id=1180);
+    background-size: 100% 110%;
+    background-repeat: no-repeat;
+    /* border: 2px solid blue; */
+}
+
+.main7 p
+{
+    font-size: 40px;
+    color: #ffffff;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.main7 .submain72
+{
+    height: 220px;
+    width: 360px;
+    background: white;
+    border: 2px solid;
+    margin: 90px 70px;
+    position: relative;
+}
+
+.main7 .submain72 .rocky
+{
+    font-size: 25px;
+    color: #000;
+    margin: 40px;
+
+}
+
+.main7 .submain72 .lock
+{
+    font-size: 14px;
+    color: #000;
+   align-items: center;
+   margin: 0px;
+   
+
+}
+
+.main7 .submain72 .readmore a
+{
+    text-decoration: none;
+    font-size: 16px;
+    color: grey;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    top: 170px;
+    left: 150px;
+    transition: .2s;
+}
+
+.main7 .submain72 .readmore a::after
+{
+    content: "\203A";
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: space-between; */
+    /* padding: -50px; */
+    margin: -22px 90px;
+    color: cadetblue;
+}
+
+.main7 .submain72 .readmore a:hover
+{
+   color: darkturquoise;  
+}
+
+.main7 .submain72 .readmore a:hover::after
+{
+   color: darkturquoise;
+   margin: -28px 90px;
+   font-size: 23px; 
+
+}
+
+
+.main7 .submain73
+{
+    height: 220px;
+    width: 360px;
+    background: white;
+    /* border: 2px solid; */
+    margin: -310px 455px;
+    position: relative;
+}
+
+.main7 .submain73 .rocky
+{
+    font-size: 25px;
+    color: #000;
+    margin: 40px;
+
+}
+
+.main7 .submain73 .lock
+{
+    font-size: 14px;
+    color: #000;
+   align-items: center;
+   margin: 0px;
+   
+
+}
+
+.main7 .submain73 .readmore a
+{
+    text-decoration: none;
+    font-size: 16px;
+    color: grey;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    top: 170px;
+    left: 150px;
+    transition: .2s;
+}
+
+.main7 .submain73 .readmore a::after
+{
+    content: "\203A";
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: space-between; */
+    /* padding: -50px; */
+    margin: -22px 90px;
+    color: cadetblue;
+}
+
+.main7 .submain73 .readmore a:hover
+{
+   color: darkturquoise;  
+}
+
+.main7 .submain73 .readmore a:hover::after
+{
+   color: darkturquoise;
+   margin: -28px 90px;
+   font-size: 23px; 
+
+}
+
+.main7 .submain74
+{
+    height: 220px;
+    width: 360px;
+    background: #ffff;
+    /* border: 2px solid; */
+    margin: 90px 840px;
+    position: relative;
+}
+
+
+.main7 .submain74 .rocky
+{
+    font-size: 25px;
+    color: #000;
+    margin: 40px;
+
+}
+
+.main7 .submain74 .lock
+{
+    font-size: 14px;
+    color: #000;
+   align-items: center;
+   margin: 0px;
+   
+
+}
+
+.main7 .submain74 .readmore a
+{
+    text-decoration: none;
+    font-size: 16px;
+    color: grey;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    top: 170px;
+    left: 150px;
+    transition: .2s;
+}
+
+.main7 .submain74 .readmore a::after
+{
+    content: "\203A";
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: space-between; */
+    /* padding: -50px; */
+    margin: -22px 90px;
+    color: cadetblue;
+}
+
+.main7 .submain74 .readmore a:hover
+{
+   color: darkturquoise;  
+}
+
+.main7 .submain74 .readmore a:hover::after
+{
+   color: darkturquoise;
+   margin: -28px 90px;
+   font-size: 23px; 
+
+}                    
+
+
+                                   /* .main7 .ends */
+
+                                   /* .main8 .starts */
+
+
+.main8
+{
+    height: 600px;
+    background: #ffffff;
+    /* border: 2px solid; */
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.main8 .submain81 
+{
+    /* border: 2px solid; */
+}
+
+.main8 .submain81 p
+{
+  font-size: 40px;
+  word-spacing: 10px;
+  letter-spacing: 5px;
+  color: rgb(111, 118, 118);
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-top: 30px;
+}
+
+
+.main8 .submain81 .toy
+{
+    height: 6px;
+    width: 40px;
+    border-radius: 10px;
+    background: cadetblue;
+    /* margin: 40px; */
+    margin: 10px 640px;
+}
+
+.main8 .submain82
+{
+    /* border: 2px solid; */
+}
+
+.main8 .submain82 .clock
+{
+    height: 60px;
+    width: 1100px;
+    background: cadetblue;
+    align-items: center;
+    margin: 30px 50px;
+    padding: 15px 20px;
+}
+
+.main8 .submain82 p
+{
+   margin: 10px 40px;  
+}
+
+.main8 .submain82 .clock .square
+{
+    background: lightcoral;
+    height: 60px;
+    width: 130px;
+    margin: -42px -20px;
+}
+
+.main8 .submain82  .p2
+{
+  margin: -25px 130px;
+  margin-top: -27px;
+}
+
+.main8 .submain82  .p3
+{
+  margin: 0px 200px;
+  margin-top: 7px;
+}
+.main8 .submain82  .p4
+{
+  margin: -30px 300px;
+  margin-top: -18px;
+}
+.main8 .submain82  .p5
+{
+  margin: 0px 430px;
+  margin-top: 12px;
+}
+.main8 .submain82  .p6
+{
+  margin: 0px 630px;
+  margin-top: -19px;
+}
+
+.main8 .submain82  .p7
+{
+  margin: -60px 740px;
+  margin-top: -18px;
+}
+
+
+.main8 .submain82  .p8
+{
+  margin: -30px 860px;
+  margin-top: 41px;
+}
+
+
+.main8 .submain82  .p9
+{
+  margin: -30px 960px;
+  margin-top: 12px;
+}
+
+.main8 .submain82 p a
+{
+    text-decoration: none;
+    color: #ffffff;
+  
+}
+
+
+.main8 .submain83
+{
+    /* border: 2px solid; */
+    background: #ffffff;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.main8 .submain83 .turn 
+{
+    /* border: 2px solid; */
+
+}
+
+.main8 .submain83 .turn .new
+{
+    height: 20px;
+    width: 40px;
+    background: darkcyan;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 5px;
+    margin: 30px 90px;
+}
+
+.main8 .submain83 .turn .owl
+{ 
+  margin: -10px 90px;
+  transition: .2s;
+}
+
+.main8 .submain83 .turn .owl a:hover
+{
+    color: cadetblue;
+    transition: .2s;
+}
+.main8 .submain83 .turn a
+{
+    text-decoration: none;
+    color: firebrick;
+    font-size: 20px;
+}
+
+
+
+.main8 .submain83 .turn .dash
+{
+  margin: -15px;
+  margin-top: 50px 280px;
+  margin-left: 295px;
+  color:cadetblue;
+}
+
+.main8 .submain83 .turn .dollar
+{
+   color: darkcyan;
+   margin: -24px;
+   font-size: 20px;
+   margin-left: 500px;
+}
+
+.main8 .submain83 .turn .company
+{
+    font-size: 15px;
+    font-family: fantasy;
+    margin: 40px 90px;
+    margin-top: 30px;
+
+} 
+
+.main8 .submain83 .turn .house
+{
+    font-size: 15px;
+    font-family: fantasy;
+    margin: 0px 90px;
+    margin-top: -40px;
+
+} 
+
+.main8 .submain83 .bond 
+{
+    /* border: 2px solid; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+
+.main8 .submain83 .bond .new
+{
+    height: 20px;
+    width: 40px;
+    background: darkcyan;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 5px;
+    margin: 30px 90px;
+}
+
+.main8 .submain83 .bond .owl
+{ 
+  margin: -10px 90px;
+  margin-top: 70px;
+}
+.main8 .submain83 .turn .owl a:hover
+{
+    color: cadetblue;
+    transition: .2s;
+}
+.main8 .submain83 .bond a
+{
+    text-decoration: none;
+    color: firebrick;
+    font-size: 20px;
+}
+.main8 .submain83 .bond .dash
+{
+  margin: -15px;
+  margin-top: 50px 280px;
+  margin-left: 295px;
+  color:cadetblue;
+}
+
+.main8 .submain83 .bond .dollar
+{
+   color: darkcyan;
+   margin: -40px;
+   font-size: 20px;
+   margin-left: 500px;
+}
+
+.main8 .submain83 .bond .company
+{
+    font-size: 15px;
+    font-family: fantasy;
+    margin: 40px 90px;
+    margin-top: -100px;
+
+} 
+
+.main8 .submain83 .bond .house
+{
+    font-size: 15px;
+    font-family: fantasy;
+    margin: 100px 90px;
+    margin-top: --0px;
+
+} 
+
+
+
+.main8 .submain84
+{
+    
+    /* border: 2px solid; */
+    background: #ffffff;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.main8 .submain84 .turn 
+{
+    /* border: 2px solid; */
+
+}
+
+.main8 .submain84 .turn .new
+{
+    height: 20px;
+    width: 40px;
+    background: darkcyan;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 5px;
+    margin: 30px 90px;
+}
+
+.main8 .submain84 .turn .owl
+{ 
+  margin: -10px 90px;
+}
+.main8 .submain84 .turn .owl a:hover
+{
+    color: cadetblue;
+    transition: .2s;
+}
+.main8 .submain83 .turn a
+{
+    text-decoration: none;
+    color: firebrick;
+    font-size: 20px;
+}
+.main8 .submain84 .turn .dash
+{
+  margin: -15px;
+  margin-top: 50px 280px;
+  margin-left: 295px;
+  color:cadetblue;
+}
+
+.main8 .submain84 .turn .dollar
+{
+   color: darkcyan;
+   margin: -24px;
+   font-size: 20px;
+   margin-left: 500px;
+}
+
+.main8 .submain84 .turn .company
+{
+    font-size: 15px;
+    font-family: fantasy;
+    margin: 40px 90px;
+    margin-top: 30px;
+
+} 
+
+.main8 .submain84 .turn .house
+{
+    font-size: 15px;
+    font-family: fantasy;
+    margin: 0px 90px;
+    margin-top: -40px;
+
+} 
+
+.main8 .submain84 .bond 
+{
+    border: 2px solid;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+
+.main8 .submain84 .bond .new
+{
+    height: 20px;
+    width: 40px;
+    background: darkcyan;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 5px;
+    margin: 30px 90px;
+}
+
+.main8 .submain84 .bond .owl
+{ 
+  margin: -10px 90px;
+}
+
+.main8 .submain84.turn .owl a:hover
+{
+    color: cadetblue;
+    transition: .2s;
+}
+/* .main8 .submain84 .bond a
+{
+    text-decoration: none;
+    color: firebrick;
+    font-size: 20px;
+} */
+
+.main8 .submain84 .turn p  a
+{
+    text-decoration: none;
+    color: firebrick;
+    font-size: 20px;
+}
+.main8 .submain84 .bond .dash
+{
+  margin: -15px;
+  margin-top: 50px 280px;
+  margin-left: 295px;
+  color:cadetblue;
+}
+
+.main8 .submain84 .bond .dollar
+{
+   color: darkcyan;
+   margin: -24px;
+   font-size: 20px;
+   margin-left: 500px;
+}
+
+.main8 .submain84 .bond .company
+{
+    font-size: 15px;
+    font-family: fantasy;
+    margin: 40px 90px;
+    margin-top: 30px;
+
+} 
+
+.main8 .submain84 .bond .house
+{
+    font-size: 15px;
+    font-family: fantasy;
+    margin: 0px 90px;
+    margin-top: -40px;
+
+} 
+
+.submain85 button
+{
+    height: 50px;
+    width: 130px;
+    color: #ffffff;
+    background: darkgray;
+    font-size: 17px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 5px;
+    border: none;
+    margin: 10px 600px;
+}
+
+.submain85 button a
+{
+    text-decoration: none;
+    color: #ffffff;
+    
+}
+
+
+.submain85 button:hover 
+{
+  background: lightblue;
+  color: grey;
+  transition: .4s;
+}
+
+.submain85 button:hover a 
+{
+  color:darkslateblue;
+}
+
+
+                                          /* .main8 .ends */
+                                          
+
+                                          /* .main9 .starts */
+
+                                          
+ .main9
+ {
+    height:200px;
+    background: url(https://th.bing.com/th/id/R.e08e4d5703a31384bb9e1654290d8e66?rik=D6AqAXcFLT28cQ&riu=http%3a%2f%2fwww.lyonsdendesign.co.uk%2fwp-content%2fuploads%2f2013%2f08%2ffeatures.jpg&ehk=B85e6n8zNM2Yc8k5TdBd0X0UqhkU5ftOdS73aB8L398%3d&risl=&pid=ImgRaw&r=0);
+    
+    /* border: 3px solid darkgoldenrod; */
+    position: relative;
+    
+ }                                         
+
+ .main9 .enter
+ {
+    font-size: 30px;
+    color: lightcyan;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: -150px;
+    
+ }
+
+
+
+ .main9 .enter2
+ {
+    font-size: 30px;
+    color: darkslateblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin-top: 0px;
+    margin-left: -150px;
+ }
+
+                /* .main9 .ends */
+
+                /* .main10 .starts */
+
+
+.main10
+{
+    height: 600px;
+    background: lavender;
+    /* border: 3px solid; */
+
+}
+
+.main10 .test
+{
+    color: darkslateblue;
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.main10 .test2
+{
+    height: 6px;
+    width: 35px;
+    background: cadetblue;
+    border-radius: 5px;
+    align-items: center;
+    margin-top: 8px ;
+    margin-left: 650px;
+}
+
+.main10 .test3
+{
+    font-size: 18px;
+    color: gray;
+    margin-left: 400px;
+    margin-top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main10 .test4
+{
+    font-size: 18px;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 550px;
+    margin-top: 5px;
+}
+
+
+.main10 .test5
+{
+    height: 160px;
+    width: 450px;
+    background: coral;
+    margin-top: 40px;
+    margin-left: 125px;
+    padding: 50px 25px;
+    word-spacing: 5px;
+    color: darkslateblue;
+}
+
+.main10 .test5 .test51
+{
+  height: 20px;
+  width: 30px;
+  background: lightseagreen;
+  margin-top: 36px;
+  margin-left: 395px;
+  
+}
+
+.main10 .test5 .test52
+{
+  height: 20px;
+  width: 30px;
+  background: lightseagreen;
+  margin-top: -20px;
+  margin-left: 350px;
+  
+}
+
+.main10 .test5 .test511
+{
+    height: 30px;
+    width: 12px;
+    background: lightseagreen;
+    border-radius: 100px 0px 20px 0px;
+    margin-top: -40px;
+    margin-left: 350px;
+}
+
+.main10 .test5 .test522
+{
+    height: 30px;
+    width: 12px;
+    background: lightseagreen;
+    border-radius: 100px 0px 20px 0px;
+    margin-top: -30px;
+    margin-left: 395px;
+}
+
+
+.main10 .coral1
+{
+    height: 35px;
+    width: 20px;
+    background: coral;
+    border-radius: 20px 100px 1200px 0;
+    margin-left: 50px;
+    margin-top: -6px;
+   
+    
+}
+.main10 .test6
+{
+    height: 160px;
+    width: 450px;
+    background: coral;
+    margin-top: -160px;
+    margin-left: 600px;
+    padding: 50px 25px;
+    word-spacing: 5px;
+    color: darkslateblue;
+}
+
+.main10 .test6 .test51
+{
+  height: 20px;
+  width: 30px;
+  background: lightseagreen;
+  margin-top: 36px;
+  margin-left: 395px;
+  
+}
+
+.main10 .test6 .test52
+{
+  height: 20px;
+  width: 30px;
+  background: lightseagreen;
+  margin-top: -20px;
+  margin-left: 350px;
+  
+}
+
+.main10 .test6 .test511
+{
+    height: 30px;
+    width: 12px;
+    background: lightseagreen;
+    border-radius: 100px 0px 20px 0px;
+    margin-top: -40px;
+    margin-left: 350px;
+}
+
+.main10 .test6 .test522
+{
+    height: 30px;
+    width: 12px;
+    background: lightseagreen;
+    border-radius: 100px 0px 20px 0px;
+    margin-top: -30px;
+    margin-left: 395px;
+}
+
+.main10 .coral2
+{
+    height: 35px;
+    width: 20px;
+    background: coral;
+    border-radius: 20px 100px 1200px 0;
+    margin-left: 50px;
+    margin-top: -6px;
+   
+    
+}
+
+
+.main10 .test7
+{
+    height: 40px;
+    width: 40px;
+    background: #ffffff;
+    margin-top: -100px;
+    border: 3px solid darkgray;
+
+}
+
+.main10 .test7:hover
+{
+    background: slateblue;
+    transition: .3s;
+}
+
+.main10 .test7 .test71
+{
+  text-align: center;
+  margin-top: 10px;
+  color: darkgray;
+}
+
+.main10 .test7 .test71:hover
+{
+   color: #ffffff;
+   transition: .3s;
+}
+
+
+.main10 .test8
+{
+    height: 40px;
+    width: 40px;
+    background: #ffffff;
+    margin-top: -47px;
+    margin-left: 1200px;
+    border: 3px solid darkgray;
+
+}
+
+.main10 .test8:hover
+{
+    background: slateblue;
+    transition: .3s;
+}
+
+.main10 .test8 .test71
+{
+  text-align: center;
+  margin-top: 10px;
+  color: darkgray;
+}
+
+.main10 .test8 .test71:hover
+{
+   color: #ffffff;
+   transition: .3s;
+}
+
+
+.main10 .test9  img
+{
+   height: 50px;
+   width: 50px;
+   margin-top:90px;
+   margin-left: 130px;
+   border-radius: 50px;
+   
+}
+
+.main10 .test10
+{
+    font-size: 17px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 200px;
+    margin-top: -45px;
+
+}
+
+.main10 .test11
+{
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 200px;
+    color: gray;
+}
+
+
+
+.main10 .test12  img
+{
+   height: 50px;
+   width: 50px;
+   margin-top:-150px;
+   margin-left: 605px;
+   border-radius: 50px;
+   
+}
+
+.main10 .test13
+{
+    font-size: 17px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 680px;
+    margin-top: -48px;
+
+}
+
+.main10 .test14
+{
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 680px;
+    color: gray;
+}
+
+
+.main11
+{
+    height: 300px;
+    background:  lightsalmon;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr .8fr;
+}
+
+
+.main11 .a1
+{
+   /* border: 2px solid; */
+   position: relative;
+}
+
+.main11 .a1 .uk
+{
+    color: rgb(246, 251, 251);
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: -100px;
+}
+
+.main11 .a1 .location
+{
+    font-size: 13px;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 30px;
+    margin-left: 90px;
+}
+
+.main11 .location1
+{
+   position: absolute;
+   top: 110px;
+   left: 50px;
+}
+
+.main11 .a1 .phone
+{
+    font-size: 13px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: -10px;
+    margin-left: 90px;
+}
+
+.main11 .phone1
+{
+   position: absolute;
+   top: 145px;
+   left: 50px;
+}
+
+.main11 .a1 .mail
+{
+    font-size: 13px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: -10px;
+    margin-top: 13px;
+    margin-left: 90px;
+}
+
+.main11 .mail1
+{
+   position: absolute;
+   top: 180px;
+   left: 50px;
+}
+
+.main11 .a2
+{
+   /* border: 2px solid; */
+   position: relative;
+   
+}
+
+.main11 .a2 .gy
+{
+    color: rgb(233, 246, 246);
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: -150px;
+}
+
+.main11 .a2 .location
+{
+    font-size: 13px;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 30px;
+    margin-left: 90px;
+}
+.main11 .lc1
+{
+   position: absolute;
+   top: 110px;
+   left: 50px;
+}
+
+.main11 .a2 .phone
+{
+    font-size: 13px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: -10px;
+    margin-left: 90px;
+}
+.main11 .pn1
+{
+   position: absolute;
+   top: 145px;
+   left: 50px;
+}
+
+.main11 .a2 .mail
+{
+    font-size: 13px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: -10px;
+    margin-top: 13px;
+    margin-left: 90px;
+}
+
+.main11 .ml1
+{
+   position: absolute;
+   top: 180px;
+   left: 50px;
+}
+
+
+.main11 .a3
+{
+   /* border: 2px solid; */
+   position: relative;
+}
+
+.main11 .a3 .spain
+{
+    color: rgb(239, 240, 240);
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: -190px;
+}
+
+.main11 .a3 .location
+{
+    font-size: 13px;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 30px;
+    margin-left: 90px;
+
+}
+.main11 .l1
+{
+   position: absolute;
+   top: 110px;
+   left: 50px;
+}
+
+.main11 .a3 .phone
+{
+    font-size: 13px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: -10px;
+    margin-left: 90px;
+}
+
+.main11 .p1
+{
+   position: absolute;
+   top: 145px;
+   left: 50px;
+}
+
+
+.main11 .a3 .mail
+{
+    font-size: 13px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: -10px;
+    margin-top: 13px;
+    margin-left: 90px;
+}
+
+.main11 .m1
+{
+   position: absolute;
+   top: 130px;
+   left: 0px;
+   font-size: 15px;
+   border: none;
+}
+
+.main11 .a4
+{
+    /* border: 2px solid; */
+}
+
+.main11 .a4 .dot
+{
+    color: darkcyan;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.main11 a
+{
+    text-decoration: none;
+    color: darkcyan;
+}
+
